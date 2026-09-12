@@ -1,0 +1,90 @@
+body {
+    background-color: #FFA0CE;
+}
+
+.heading {
+    text-align: center;
+    font-size: 60px;
+}
+
+.sidebar {
+    width: 25%;
+    height: 95vh;
+    background-color: #ED164F;
+    color: #FEFEFE;
+    padding: 15px;
+    font-family: "Comic Sans MS";
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.scrolling {
+    font-family: "Comic Sans MS";
+    font-size: 25px;
+    color:#FEFEFE;
+}
+
+.main {
+    color:#FFE717;
+    text-align: center;
+}
+
+.main ul {
+    list-style-type: none;
+    padding-left: 0;
+    color:#FFE717;
+    text-align: center;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+}
+
+.img3 {
+    width: 600px;
+    max-width: 100;
+    height: auto;
+}
+
+.goodbye {
+    animation: violentFlash 0.15s infinite steps(1);
+    font-size: 100px;
+}
+
+@keyframes violentFlash {
+  0% {
+    color: #ff0000;
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ffffff;
+  }
+  50% {
+    color: #ffffff;
+    text-shadow: 0 0 15px #00ffff;
+  }
+  100% {
+    color: #ff00ff;
+    text-shadow: none;
+  }
+}
+
+.img6 {
+    width: 600px;
+    max-width: 100;
+    height: auto;
+
+    animation: imgFlash 0.75s ease-in-out infinite;
+}
+
+@keyframes imgFlash {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.exit {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 100px
+}
