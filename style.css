@@ -88,3 +88,10 @@ body {
     cursor: pointer;
     font-size: 100px
 }
+
+@media (max-width: 768px) {
+    table, tr, .sidebar, .main {
+        display: block;
+        width: 100%;
+    }
+        
